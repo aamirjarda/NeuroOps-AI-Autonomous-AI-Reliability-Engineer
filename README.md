@@ -284,6 +284,12 @@ python neuroops_ai.py demo --no-ml
 
 ⸻
 
+## System Architecture
+
+![NeuroOps AI Architecture](image.png)
+
+⸻
+
 💻 Usage Examples
 
 1. Analyze Application Logs
