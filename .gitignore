@@ -1,0 +1,134 @@
+============================================================
+
+NeuroOps AI — Autonomous AI Reliability Engineer
+
+Git Ignore Configuration
+
+============================================================
+
+———————––
+
+Python Cache Files
+
+———————––
+
+pycache/
+*.py[cod]
+*$py.class
+
+———————––
+
+Virtual Environments
+
+———————––
+
+.venv/
+venv/
+env/
+ENV/
+
+———————––
+
+Python Packaging
+
+———————––
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+———————––
+
+Environment Variables
+
+Protect API keys and secrets
+
+———————––
+
+.env
+.env.*
+!.env.example
+
+———————––
+
+IDE and Editor Files
+
+———————––
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+———————––
+
+Testing and Coverage
+
+———————––
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+———————––
+
+Logs and Incident Reports
+
+———————––
+
+.log
+incident.json
+incident_.json
+
+———————––
+
+Machine Learning Artifacts
+
+———————––
+
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.onnx
+
+———————––
+
+Operating System Files
+
+———————––
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+———————––
+
+Temporary Files
+
+———————––
+
+tmp/
+temp/
+*.tmp
+*.bak
+
+———————––
+
+Security
+
+———————––
+
+secrets.json
+credentials.json
+service-account.json
+*.pem
+*.key
+id_rsa
+id_ed25519
